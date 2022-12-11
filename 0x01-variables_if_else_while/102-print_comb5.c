@@ -30,7 +30,7 @@ int main(void)
 		}
 	}
 	
-	putchar('\n');dddddddddddddddddddd
+	putchar('\n');
 
 	return(0);
 }

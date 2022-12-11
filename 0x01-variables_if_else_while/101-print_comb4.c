@@ -20,7 +20,7 @@ int main(void)
 							(tens > ones) || (hundreds > tens)))/*eliminates repitition*/
 				{
 					putchar(hundreds);
-					putchr(tens);
+					putchar(tens);
 					putchar(ones);
 					if (!(ones == '9' && hundreds == '7' &&
 							tens == '8'))/*adds commas and spaces*/

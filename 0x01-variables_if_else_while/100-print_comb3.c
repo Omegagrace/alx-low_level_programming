@@ -13,15 +13,15 @@ int main(void)
 	int ones = '0';
 	int tens = '0';
 
-	for (ones = '0'; tens <= '0'; tens++)/* prints tens digit*/
+	for (ones = '0'; tens <= '9'; tens++)/* prints tens digit*/
 	{
-		for (tens = '0'; ones <= '0'; one++)/* prints ones digit*/
+		for (tens = '0'; ones <= '9'; one++)/* prints ones digit*/
 		{
 			if(!((ones == tens) || (tens > ones)))/*eliminates repitition*/
 			{
 				putchar(tens);
 				putchar(ones);
-				if (!(ones == '0' &&  tens == '0'))/* addes comma and space*/
+				if (!(ones == '9' &&  tens == '8'))/* addes comma and space*/
 				{
 					putchar(',');
 					putchar(' ');

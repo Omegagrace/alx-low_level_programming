@@ -1,4 +1,5 @@
-# include <stdio>
+#include <stdio>
+#include <stdio.h>
 
 /**
  * main - prints Buzzzz each numbers of 3 and 5

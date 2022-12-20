@@ -57,6 +57,6 @@ int main(void)
 		}
 	}
 
-	printf("%s"), password);
+	printf("%s", password);
 	return (0);
 }
